@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.0;net451;net46;net461</TargetFrameworks>
+    <PackageId>MCS.ISOCurrencyConverter</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Antonne Tulloch</Authors>
+    <Company>MCS</Company>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <Description>This package will convert between ISO 4217 character codes and numeric codes.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Content\list_one.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Content\list_one.xml" />
+  </ItemGroup>
+
+</Project>
